@@ -16,9 +16,13 @@ There is only support gtest only, and requirement as followed:
 * gcc 4.8 or later
 
 ### Windows Quick start  ###
-build.bat YourProjectName
+build.bat YourProjectName  ##to be checked
 
 ### Linux Quick Start ###
-./build.sh  YourProjectName  YourProjectBitsSupported
+
+(1)mkdir -p 3th/lib 3th/include
+(2)./config.sh   YourProjectName   YourProjectBitsSupported
+(3)./install.sh
+(4)./build.sh
 
 YourProjectBitsSupported: 32Bits  or 64Bits
