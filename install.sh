@@ -16,7 +16,7 @@ if [ ! -d "${gtest_lib_name}" ]; then
 
     mkdir install
     cd install
-    git clone http://gitlab.zte.com.cn/cpp-lib/gtest.git
+    git clone git@github.com:yanxicheung/gtest.git
 else
     echo "gtest have been installed!!"
     exit 0
