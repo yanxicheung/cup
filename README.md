@@ -20,9 +20,9 @@ build.bat YourProjectName  ##to be checked
 
 ### Linux Quick Start ###
 
-(1)mkdir -p 3th/lib 3th/include
-(2)./config.sh   YourProjectName   YourProjectBitsSupported
-(3)./install.sh
-(4)./build.sh
+1.  mkdir -p 3th/lib 3th/include
+2.  ./config.sh   YourProjectName   YourProjectBitsSupported
+3.  ./install.sh
+4.  ./build.sh
 
 YourProjectBitsSupported: 32Bits  or 64Bits
